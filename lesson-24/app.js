@@ -1,16 +1,32 @@
-// break end continue
+// switch case
 
-const natijalar = [30, 43, 0, 65, 100, 20, 11]
+const baho = 'R'
 
-for (let i = 0; i < natijalar.length; i++) {
-  if (natijalar[i] === 0) {
-    continue
-  }
-
-  console.log('Sizning natijangiz:', natijalar[i])
-
-  if (natijalar[i] === 100) {
-    console.log("Siz eng yuqori natijani to'pladiz")
+switch (baho) {
+  case 'A':
+    console.log('Sizning bahoyingiz A')
     break
-  }
+  case 'B':
+    console.log('Sizning bahoyingiz B')
+    break
+  case 'C':
+    console.log('Sizning bahoyingiz C')
+    break
+  case 'D':
+    console.log('Sizning bahoyingiz D')
+    break
+  default:
+    console.log('Sizning bahoyingiz E')
 }
+
+// if (baho === "A") {
+// //
+// } else if (baho === 'B') {
+// //
+// } else if (baho === 'C') {
+// //
+// } else if (baho === 'D') {
+// //
+// } else {
+// //
+// }
