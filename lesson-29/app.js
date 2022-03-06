@@ -1,26 +1,8 @@
-// function decloration
+/* ------------------- lesson-30 ----------------------- */
+/* Argument & Parameters */
 
-sayHello()
-sayHello()
-sayHello()
-
-function sayHello() {
-  console.log('hello Function decloration')
+const sayHello = function (name, day = 'kech') {
+  console.log(`Hayrili ${day} ${name}`)
 }
 
-// function expression
-const sayByeBye = function () {
-  console.log('SayByeBye function expression')
-}
-sayByeBye()
-sayByeBye()
-sayByeBye()
-
-// arrow function
-const nice = () => {
-  console.log('This is arrow function')
-}
-
-nice()
-nice()
-nice()
+sayHello('Behruz', 'tong')
