@@ -1,12 +1,15 @@
-/*------- lesson-35 -----*/
+/*------- lesson-36 -----*/
 
-/* callback function */
+/* forEach */
 
-const myFunc = (callbackFunc) => {
-  let number = 50
-  callbackFunc(number)
-}
+const names = ['ahror', 'sardor', 'doniyor', 'avaz', 'islom']
+const namesNew = []
 
-myFunc((value) => {
-  console.log(value)
+names.forEach(function (name, i) {
+  let boshi = name.charAt().toUpperCase()
+  let davomi = name.slice(1).toLowerCase()
+  let nameNew = boshi + davomi + 'bek'
+  namesNew.push(nameNew, i)
 })
+
+console.log(namesNew)
