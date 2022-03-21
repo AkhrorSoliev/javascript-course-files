@@ -1,13 +1,11 @@
-/* ------------------- lesson-32 ----------------------- */
-/* Functions vs Methods */
+/*------- lesson-34 -----*/
+/*------- funkstiyalar boshqa funkstiyalarni chaqirishi -----*/
 
-const ism = 'ahror'
+function sharbatTayyorlovchi(olma, apelsin) {
+  const sharbat = `Bu sharbat ${olma} ta va ${apelsin} ta apelsin dan iborat.`
+  return sharbat
+}
 
-// function
-const greet = () => 'Hello'
-const result = greet()
-console.log(result)
+const sharbat = sharbatTayyorlovchi(3, 7)
 
-// methods
-const res = ism.toUpperCase()
-console.log(res)
+console.log(sharbat)
