@@ -1,17 +1,23 @@
-/*------- lesson-36 -----*/
+/*------- lesson-37 -----*/
 
-/* forEach */
+// objects
 
-const ismlar = ['ahror', 'sardor', 'doniyor', 'farxod']
-const newIsmlar = []
+const user = {
+  name: 'Ahror',
+  age: 24,
+  email: 'akhrorteacher@gmail.com',
+  location: "Farg'ona",
+  lang: ['uzbek', 'russian', 'english'],
+}
 
-ismlar.forEach(function (ism) {
-  const newIsm = ism.charAt().toUpperCase() + ism.slice(1).toLowerCase() + 'bek'
-  newIsmlar.push(newIsm)
-})
+console.log(user)
+console.log(user.email)
 
-console.log(newIsmlar)
+user.age = 25
+console.log(user.age)
 
-// for (let i = 0; i < ismlar.length; i++) {
-//   console.log(ismlar[i])
-// }
+console.log(user['location'])
+user['name'] = 'Doniyor'
+console.log(user['name'])
+
+console.log(typeof user)
