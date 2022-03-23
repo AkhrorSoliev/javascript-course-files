@@ -1,27 +1,18 @@
-/*------- lesson-37 -----*/
+/*------- lesson-38 -----*/
 
-// objects
+// onjeclarga mehtod qo'shish
 
 const user = {
   name: 'Ahror',
   age: 24,
   email: 'akhrorteacher@gmail.com',
   location: "Farg'ona",
-  lang: ['uzbek', 'russian', 'english'],
+  langs: ['uzbek', 'russian', 'english'],
   login: function () {
-    console.log('Siz saytdagi sahifangizga kirdingiz.')
+    console.log('Siz bu saytdagi sahifangiznga kirdingiz.')
   },
   logout: function () {
-    console.log('Siz saytdagi sahifangizni tark etdingiz.')
+    console.log('Siz bu saytdagi sahifangizni tark etdingiz.')
   },
-  lang: function () {
-    console.log(user.lang)
-  },
+  speak: function () {},
 }
-
-user.login()
-user.logout()
-user.lang()
-
-// const myName = 'ahror'
-// myName.toUpperCase()
