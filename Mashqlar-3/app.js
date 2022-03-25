@@ -29,8 +29,7 @@ const data = [[1, 2, 3], 'qizil', [4, 5, 6], true, false]
 const newData = []
 
 data.forEach((item) => {
-  const res = Array.isArray(item)
-  console.log(res)
+  Array.isArray(item)
 })
 
 /* --------------------  3 MASHQ🚩 -------------------- */
