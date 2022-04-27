@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+li {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(116, 0, 134, 0.644);
+  color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 300px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(61, 70, 240);
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 0;
+}
+
+button:hover {
+  opacity: 0.9;
+}
