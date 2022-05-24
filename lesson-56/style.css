@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+body {
+  font-family: 'Varela', sans-serif;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  flex-direction: column;
+  gap: 50px;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  font-size: 25px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  border: 0;
+  font-family: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  font-size: 20px;
+  background: rgb(73, 73, 255);
+  color: #fff;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: rgb(21, 21, 217);
+}
+
+.message {
+  background: #fff;
+  color: #000;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.success {
+  border: 5px solid greenyellow;
+  box-shadow: 3px 4px 29px 3px rgba(0, 255, 8, 0.71);
+  -webkit-box-shadow: 3px 4px 29px 3px rgba(0, 255, 8, 0.71);
+  -moz-box-shadow: 3px 4px 29px 3px rgba(0, 255, 8, 0.71);
+}
+
+.error {
+  border: 5px solid tomato;
+  box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71);
+  -webkit-box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71);
+  -moz-box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71);
+}
