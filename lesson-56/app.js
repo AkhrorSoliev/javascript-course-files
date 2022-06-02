@@ -16,3 +16,10 @@ signupForm.addEventListener('submit', (e) => {
 })
 
 // live feedback
+signupForm.username.addEventListener('keyup', (e) => {
+  if (regEX.test(e.target.value)) {
+    signupForm.username.setAttribute('class', 'success')
+  } else {
+    signupForm.username.setAttribute('class', 'error')
+  }
+})
